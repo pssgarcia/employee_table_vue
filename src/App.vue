@@ -65,7 +65,7 @@ export default {
       employees: [],
       userInput: '',
       employeeResult: [],
-      employeeApi: "http://localhost/2023-06-14-vue-php-api/rest/api/V1/employee.php",
+      employeeApi: "http://localhost/employee_table_vue/rest/api/V1/employee.php",
       employeeObj: {
         firstName: "",
         lastName: "",
@@ -152,11 +152,15 @@ export default {
   width: 70%;
 }
 
+body {
+  background-color: bisque;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }

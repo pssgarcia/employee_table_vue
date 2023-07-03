@@ -48,7 +48,7 @@ export default {
       async deleteData(id) {
         try {
           await fetch(
-            "http://localhost:80/2023-06-14-vue-php-api/rest/api/V1/employee.php",
+            "http://localhost/employee_table_vue/rest/api/V1/employee.php",
             {
               method: "DELETE",
               body: JSON.stringify(id)
